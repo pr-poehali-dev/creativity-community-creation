@@ -124,7 +124,7 @@ export default function Index() {
               <div className="space-y-4 text-muted-foreground">
                 <div>
                   <p className="text-foreground mb-1">Telegram</p>
-                  <p>@anonymous_art_admin</p>
+                  <p>@taro_Valter</p>
                 </div>
                 <div>
                   <p className="text-foreground mb-1">Сообщество</p>
