@@ -12,44 +12,23 @@ export default function Index() {
           <div className="space-y-12">
             <div className="border-l border-foreground pl-8">
               <div className="text-sm text-muted-foreground mb-2">01</div>
-              <h3 className="text-xl mb-3">Анонимность</h3>
+              <h3 className="text-xl mb-3">Уважение</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Личная информация художника строго конфиденциальна. Запрещается любое распространение персональных данных.
+                Проявление уважения ко всем участникам сообщества, независимо от их творческого стиля, опыта или убеждений. Запрещается дискриминация, оскорбления и любые формы проявления неуважения.
               </p>
             </div>
             <div className="border-l border-foreground pl-8">
               <div className="text-sm text-muted-foreground mb-2">02</div>
-              <h3 className="text-xl mb-3">Авторское право</h3>
+              <h3 className="text-xl mb-3">Ответственность</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Все произведения защищены авторским правом. Использование без письменного разрешения запрещено.
+                Каждый участник сообщества несет ответственность за свои действия и слова. Необходимо придерживаться этических норм и правил сообщества.
               </p>
             </div>
             <div className="border-l border-foreground pl-8">
               <div className="text-sm text-muted-foreground mb-2">03</div>
-              <h3 className="text-xl mb-3">Эксклюзивность</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Участие в сообществе — привилегия. Не распространяйте контент за пределами платформы.
-              </p>
-            </div>
-            <div className="border-l border-foreground pl-8">
-              <div className="text-sm text-muted-foreground mb-2">04</div>
-              <h3 className="text-xl mb-3">Уважение</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Проявление уважения ко всем членам сообщества, независимо от их творческого стиля, опыта или убеждений. Запрещается дискриминация, оскорбления и любые формы проявления неуважения.
-              </p>
-            </div>
-            <div className="border-l border-foreground pl-8">
-              <div className="text-sm text-muted-foreground mb-2">05</div>
-              <h3 className="text-xl mb-3">Ответственность</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Каждый член сообщества несет ответственность за свои действия и слова. Необходимо придерживаться этических норм и правил сообщества.
-              </p>
-            </div>
-            <div className="border-l border-foreground pl-8">
-              <div className="text-sm text-muted-foreground mb-2">06</div>
               <h3 className="text-xl mb-3">Сотрудничество</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Поддержка и сотрудничество между членами сообщества. Приветствуется обмен знаниями, опытом и ресурсами.
+                Поддержка и сотрудничество между участниками сообщества. Приветствуется обмен знаниями, опытом и ресурсами.
               </p>
             </div>
           </div>
