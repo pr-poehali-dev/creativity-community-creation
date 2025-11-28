@@ -65,7 +65,7 @@ export default function BriefForm() {
 
         <div>
           <Label htmlFor="contact" className="text-sm mb-2 block">
-            Telegram или Email
+            Telegram или ВКонтакте
           </Label>
           <Input
             id="contact"
@@ -74,7 +74,7 @@ export default function BriefForm() {
             onChange={handleChange}
             required
             className="border-border"
-            placeholder="@username или email@example.com"
+            placeholder="@username или vk.com/username"
           />
         </div>
 

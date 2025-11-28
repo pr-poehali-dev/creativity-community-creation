@@ -11,9 +11,8 @@ export default function PriceCalculator() {
   const [extraRevisions, setExtraRevisions] = useState(0);
 
   const basePrices: Record<string, number> = {
-    graphic: 30000,
-    painting: 80000,
-    series: 150000,
+    graphic: 1000,
+    series: 2200,
   };
 
   const licenseMultipliers: Record<string, number> = {
@@ -49,19 +48,13 @@ export default function PriceCalculator() {
             <div className="flex items-center space-x-3 mb-3">
               <RadioGroupItem value="graphic" id="graphic" />
               <Label htmlFor="graphic" className="font-normal cursor-pointer">
-                Графика / Иллюстрация (от 30 000 ₽)
-              </Label>
-            </div>
-            <div className="flex items-center space-x-3 mb-3">
-              <RadioGroupItem value="painting" id="painting" />
-              <Label htmlFor="painting" className="font-normal cursor-pointer">
-                Живопись (от 80 000 ₽)
+                Графика / Иллюстрация (от 1 000 ₽)
               </Label>
             </div>
             <div className="flex items-center space-x-3">
               <RadioGroupItem value="series" id="series" />
               <Label htmlFor="series" className="font-normal cursor-pointer">
-                Серия работ (от 150 000 ₽)
+                Парная работа (от 2 200 ₽)
               </Label>
             </div>
           </RadioGroup>

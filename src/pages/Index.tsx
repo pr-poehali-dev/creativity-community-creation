@@ -56,7 +56,6 @@ export default function Index() {
                   <h4 className="text-lg mb-4">Сроки выполнения</h4>
                   <div className="space-y-3 text-muted-foreground text-sm leading-relaxed">
                     <p><span className="text-foreground">Графика / Иллюстрация.</span> 7-14 рабочих дней</p>
-                    <p><span className="text-foreground">Живопись.</span> 3-8 недель в зависимости от размера</p>
                     <p><span className="text-foreground">Серия работ.</span> Индивидуально, от 1 месяца</p>
                     <p><span className="text-foreground">Срочный заказ.</span> +50% к стоимости, минимум 5 дней</p>
                     <p className="pt-2 text-xs">Дедлайн обсуждается на этапе брифа и фиксируется в договоре</p>
@@ -87,7 +86,7 @@ export default function Index() {
                 <div className="border-l border-foreground pl-8">
                   <h4 className="text-lg mb-4">Оплата и отмена</h4>
                   <div className="space-y-3 text-muted-foreground text-sm leading-relaxed">
-                    <p><span className="text-foreground">Способы.</span> Банковский перевод, криптовалюта (BTC, ETH, USDT)</p>
+                    <p><span className="text-foreground">Способы.</span> Банковский перевод</p>
                     <p><span className="text-foreground">График.</span> 50% предоплата, 50% после утверждения финального варианта</p>
                     <p><span className="text-foreground">Отмена заказчиком.</span> Предоплата не возвращается, если работа начата</p>
                     <p><span className="text-foreground">Отмена художником.</span> Полный возврат + компенсация 20%</p>
@@ -98,7 +97,6 @@ export default function Index() {
                 <div className="border-l border-foreground pl-8">
                   <h4 className="text-lg mb-4">Конфиденциальность</h4>
                   <div className="space-y-3 text-muted-foreground text-sm leading-relaxed">
-                    <p><span className="text-foreground">NDA.</span> Подписание соглашения о неразглашении по запросу</p>
                     <p><span className="text-foreground">Портфолио.</span> Работа публикуется в портфолио если не куплен эксклюзив</p>
                     <p><span className="text-foreground">Данные.</span> Личная информация заказчика не передаётся третьим лицам</p>
                   </div>
@@ -132,11 +130,16 @@ export default function Index() {
                   <p className="text-foreground mb-1">Email</p>
                   <p>contact@anonymous-art.space</p>
                 </div>
+                <div>
+                  <p className="text-foreground mb-1">ВКонтакте</p>
+                  <p>vk.com/anonymous_art</p>
+                </div>
               </div>
             </div>
             <div>
               <h3 className="text-xl mb-6 border-b border-border pb-3">График</h3>
               <div className="space-y-4 text-muted-foreground">
+                <p>Рабочее время: пн-пт 10:00-22:00 МСК</p>
                 <p>Обращения: 24-48 часов</p>
                 <p>Предложения: 3-5 дней</p>
                 <p>Модерация: круглосуточно</p>
@@ -145,69 +148,21 @@ export default function Index() {
           </div>
         </section>
 
-        <section className="animate-fade-in">
-          <h2 className="text-4xl font-light tracking-wide mb-16">Эксклюзивность</h2>
-          <div className="space-y-12">
-            <div>
-              <h3 className="text-xl mb-8">Стратегия популярности</h3>
-              <div className="grid md:grid-cols-2 gap-x-16 gap-y-8 text-sm">
-                <div>
-                  <h4 className="text-foreground mb-2">Ограниченный доступ</h4>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Закрытые регистрации по инвайтам создают ощущение привилегии
-                  </p>
-                </div>
-                <div>
-                  <h4 className="text-foreground mb-2">Уникальный контент</h4>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Регулярные релизы эксклюзивных работ, недоступных больше нигде
-                  </p>
-                </div>
-                <div>
-                  <h4 className="text-foreground mb-2">Premium опыт</h4>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Идеальное оформление и внимание к каждой детали
-                  </p>
-                </div>
-                <div>
-                  <h4 className="text-foreground mb-2">Закрытое комьюнити</h4>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Отбор участников по критериям вовлеченности в искусство
-                  </p>
-                </div>
-              </div>
-            </div>
-            <Separator />
-            <div className="space-y-6 text-muted-foreground text-sm leading-relaxed">
-              <p>
-                <span className="text-foreground">Дефицит создаёт ценность.</span> Ограничивайте количество мест в сообществе — например, только 500 участников.
-              </p>
-              <p>
-                <span className="text-foreground">Многоуровневый доступ.</span> Создайте tier-систему: базовый уровень, VIP, и элитный inner circle.
-              </p>
-              <p>
-                <span className="text-foreground">Сарафанное радио.</span> Анонимность художника + качественный контент = естественный интерес.
-              </p>
-              <p>
-                <span className="text-foreground">Коллаборации.</span> Сотрудничество с известными галереями привлечёт их аудиторию.
-              </p>
-            </div>
-          </div>
-        </section>
+
       </div>
 
       <section className="py-32 px-6 bg-muted/30">
         <div className="max-w-2xl mx-auto text-center">
           <blockquote className="text-2xl md:text-3xl font-light italic mb-6 leading-relaxed">
-            "Искусство — это не то, что ты видишь, а то, что ты заставляешь видеть других"
+            "Карты открывают то, что скрыто от глаз"
           </blockquote>
-          <p className="text-sm tracking-widest text-muted-foreground">— ANONYMOUS</p>
+          <p className="text-sm tracking-widest text-muted-foreground">— ТАРО</p>
         </div>
       </section>
 
       <footer className="border-t border-border py-12 px-6">
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-muted-foreground">
-          <p>© 2024 Anonymous Artist</p>
+          <p>© 2024 ТАРО</p>
           <div className="flex gap-12">
             <a href="#" className="hover:text-foreground transition-colors duration-200">Правила</a>
             <a href="#" className="hover:text-foreground transition-colors duration-200">Сотрудничество</a>
