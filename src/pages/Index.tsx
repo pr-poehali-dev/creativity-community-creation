@@ -6,43 +6,6 @@ import BriefForm from "@/components/BriefForm";
 export default function Index() {
   return (
     <div className="min-h-screen bg-background">
-      <section className="relative h-screen flex items-center justify-center overflow-hidden bg-white">
-        <div className="text-center px-6 animate-fade-in">
-          <h1 className="text-8xl md:text-[12rem] font-light tracking-[0.3em] text-foreground mb-2">
-            A
-          </h1>
-          <div className="w-16 h-px bg-foreground mx-auto" />
-        </div>
-      </section>
-
-      <section className="py-32 px-6 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-16">
-            <div className="relative aspect-[3/4] overflow-hidden bg-muted animate-fade-in">
-              <img 
-                src="https://cdn.poehali.dev/projects/16ca5190-59f2-42fc-b7f0-43c21ca10da0/files/eff1da47-57ef-4396-a467-596a354bc0ef.jpg" 
-                alt="Work 1"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-              />
-            </div>
-            <div className="relative aspect-[3/4] overflow-hidden bg-muted animate-fade-in" style={{animationDelay: '0.2s'}}>
-              <img 
-                src="https://cdn.poehali.dev/projects/16ca5190-59f2-42fc-b7f0-43c21ca10da0/files/0ec1c8d0-2cd6-4e5f-94b1-1d9a7756920a.jpg" 
-                alt="Work 2"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-              />
-            </div>
-            <div className="relative aspect-[3/4] overflow-hidden bg-muted animate-fade-in" style={{animationDelay: '0.4s'}}>
-              <img 
-                src="https://cdn.poehali.dev/projects/16ca5190-59f2-42fc-b7f0-43c21ca10da0/files/852e997e-7630-4aed-864e-64c37c90533f.jpg" 
-                alt="Work 3"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
       <div className="max-w-4xl mx-auto px-6 py-32 space-y-48">
         <section className="animate-fade-in">
           <h2 className="text-4xl font-light tracking-wide mb-16">Правила</h2>
