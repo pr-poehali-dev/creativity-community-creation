@@ -120,7 +120,7 @@ export default function Index() {
           <h2 className="text-4xl font-light tracking-wide mb-16">Администрация</h2>
           <div className="grid md:grid-cols-2 gap-16 text-sm">
             <div>
-              <h3 className="text-xl mb-6 border-b border-border pb-3">Контакты</h3>
+              <h3 className="text-xl mb-6 border-b border-border pb-3">Уважение</h3>
               <div className="space-y-4 text-muted-foreground">
                 <div>
                   <p className="text-foreground mb-1">Telegram</p>
@@ -132,7 +132,7 @@ export default function Index() {
                 </div>
                 <div>
                   <p className="text-foreground mb-1">ВКонтакте</p>
-                  <p>vk.com/anonymous_art</p>
+                  <p>https://vk.com/taro_valter</p>
                 </div>
               </div>
             </div>
