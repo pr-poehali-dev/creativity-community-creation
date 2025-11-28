@@ -127,8 +127,8 @@ export default function Index() {
                   <p>@anonymous_art_admin</p>
                 </div>
                 <div>
-                  <p className="text-foreground mb-1">Email</p>
-                  <p>contact@anonymous-art.space</p>
+                  <p className="text-foreground mb-1">Сообщество</p>
+                  <p> @taro_valterr</p>
                 </div>
                 <div>
                   <p className="text-foreground mb-1">ВКонтакте</p>
