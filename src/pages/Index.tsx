@@ -1,5 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import PriceCalculator from "@/components/PriceCalculator";
+import BriefForm from "@/components/BriefForm";
 
 export default function Index() {
   return (
@@ -172,6 +174,14 @@ export default function Index() {
                 </ul>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section className="animate-fade-in">
+          <h2 className="text-4xl font-light tracking-wide mb-16">Калькулятор и бриф</h2>
+          <div className="grid md:grid-cols-2 gap-12">
+            <PriceCalculator />
+            <BriefForm />
           </div>
         </section>
 
