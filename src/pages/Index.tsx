@@ -78,24 +78,99 @@ export default function Index() {
 
         <section className="animate-fade-in">
           <h2 className="text-4xl font-light tracking-wide mb-16">Сотрудничество</h2>
-          <div className="grid md:grid-cols-2 gap-16">
+          
+          <div className="space-y-24">
             <div>
-              <h3 className="text-xl mb-6 border-b border-border pb-3">Реклама</h3>
-              <ul className="space-y-4 text-muted-foreground text-sm">
-                <li>Премиальные бренды</li>
-                <li>Согласование эстетики</li>
-                <li>Минимум 3 месяца</li>
-                <li>Эксклюзивность по категории</li>
-              </ul>
+              <h3 className="text-2xl font-light mb-12">Работа с художником</h3>
+              <div className="space-y-12">
+                <div className="border-l border-foreground pl-8">
+                  <h4 className="text-lg mb-4">Процесс заказа</h4>
+                  <div className="space-y-3 text-muted-foreground text-sm leading-relaxed">
+                    <p><span className="text-foreground">Бриф.</span> Детальное описание задачи, желаемого результата, референсов</p>
+                    <p><span className="text-foreground">Обсуждение.</span> Согласование концепции, формата, стиля работы (2-3 дня)</p>
+                    <p><span className="text-foreground">Предоплата.</span> 50% от стоимости до начала работы</p>
+                    <p><span className="text-foreground">Этапы.</span> Презентация промежуточных результатов, 2 раунда правок включены</p>
+                    <p><span className="text-foreground">Финализация.</span> Окончательное утверждение и передача всех материалов</p>
+                  </div>
+                </div>
+
+                <div className="border-l border-foreground pl-8">
+                  <h4 className="text-lg mb-4">Сроки выполнения</h4>
+                  <div className="space-y-3 text-muted-foreground text-sm leading-relaxed">
+                    <p><span className="text-foreground">Графика / Иллюстрация.</span> 7-14 рабочих дней</p>
+                    <p><span className="text-foreground">Живопись.</span> 3-8 недель в зависимости от размера</p>
+                    <p><span className="text-foreground">Серия работ.</span> Индивидуально, от 1 месяца</p>
+                    <p><span className="text-foreground">Срочный заказ.</span> +50% к стоимости, минимум 5 дней</p>
+                    <p className="pt-2 text-xs">Дедлайн обсуждается на этапе брифа и фиксируется в договоре</p>
+                  </div>
+                </div>
+
+                <div className="border-l border-foreground pl-8">
+                  <h4 className="text-lg mb-4">Правки и доработки</h4>
+                  <div className="space-y-3 text-muted-foreground text-sm leading-relaxed">
+                    <p><span className="text-foreground">Включено.</span> 2 раунда правок на основании брифа</p>
+                    <p><span className="text-foreground">Дополнительно.</span> Каждый следующий раунд +20% от стоимости</p>
+                    <p><span className="text-foreground">Новая концепция.</span> Изменение изначальной идеи = новый заказ</p>
+                    <p><span className="text-foreground">Срок ответа.</span> Правки вносятся в течение 3-5 дней</p>
+                  </div>
+                </div>
+
+                <div className="border-l border-foreground pl-8">
+                  <h4 className="text-lg mb-4">Права и использование</h4>
+                  <div className="space-y-3 text-muted-foreground text-sm leading-relaxed">
+                    <p><span className="text-foreground">Базовая лицензия.</span> Личное некоммерческое использование</p>
+                    <p><span className="text-foreground">Коммерческая лицензия.</span> +100% к стоимости, ограниченная территория/срок</p>
+                    <p><span className="text-foreground">Эксклюзив.</span> Полная передача прав +200%, работа не публикуется</p>
+                    <p><span className="text-foreground">Авторство.</span> Имя художника (псевдоним) остаётся в метаданных</p>
+                    <p className="pt-2 text-xs">Права передаются после полной оплаты</p>
+                  </div>
+                </div>
+
+                <div className="border-l border-foreground pl-8">
+                  <h4 className="text-lg mb-4">Оплата и отмена</h4>
+                  <div className="space-y-3 text-muted-foreground text-sm leading-relaxed">
+                    <p><span className="text-foreground">Способы.</span> Банковский перевод, криптовалюта (BTC, ETH, USDT)</p>
+                    <p><span className="text-foreground">График.</span> 50% предоплата, 50% после утверждения финального варианта</p>
+                    <p><span className="text-foreground">Отмена заказчиком.</span> Предоплата не возвращается, если работа начата</p>
+                    <p><span className="text-foreground">Отмена художником.</span> Полный возврат + компенсация 20%</p>
+                    <p><span className="text-foreground">Задержка оплаты.</span> Работа приостанавливается через 3 дня после дедлайна</p>
+                  </div>
+                </div>
+
+                <div className="border-l border-foreground pl-8">
+                  <h4 className="text-lg mb-4">Конфиденциальность</h4>
+                  <div className="space-y-3 text-muted-foreground text-sm leading-relaxed">
+                    <p><span className="text-foreground">NDA.</span> Подписание соглашения о неразглашении по запросу</p>
+                    <p><span className="text-foreground">Портфолио.</span> Работа публикуется в портфолио если не куплен эксклюзив</p>
+                    <p><span className="text-foreground">Данные.</span> Личная информация заказчика не передаётся третьим лицам</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div>
-              <h3 className="text-xl mb-6 border-b border-border pb-3">Бартер</h3>
-              <ul className="space-y-4 text-muted-foreground text-sm">
-                <li>Обмен произведениями</li>
-                <li>Доступ к пространствам</li>
-                <li>Коллаборации</li>
-                <li>Индивидуальное рассмотрение</li>
-              </ul>
+
+            <Separator />
+
+            <div className="grid md:grid-cols-2 gap-16">
+              <div>
+                <h3 className="text-xl mb-6 border-b border-border pb-3">Реклама и PR</h3>
+                <ul className="space-y-4 text-muted-foreground text-sm">
+                  <li>Только премиальные бренды</li>
+                  <li>Согласование эстетики</li>
+                  <li>Минимум 3 месяца</li>
+                  <li>Эксклюзивность по категории</li>
+                  <li>Договор с фиксированной оплатой</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-xl mb-6 border-b border-border pb-3">Бартер</h3>
+                <ul className="space-y-4 text-muted-foreground text-sm">
+                  <li>Обмен произведениями искусства</li>
+                  <li>Доступ к студиям/пространствам</li>
+                  <li>Коллаборации с художниками</li>
+                  <li>Редкие материалы для работы</li>
+                  <li>Индивидуальное рассмотрение</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
