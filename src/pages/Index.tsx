@@ -150,30 +150,7 @@ export default function Index() {
               </div>
             </div>
 
-            <Separator />
 
-            <div className="grid md:grid-cols-2 gap-16">
-              <div>
-                <h3 className="text-xl mb-6 border-b border-border pb-3">Реклама и PR</h3>
-                <ul className="space-y-4 text-muted-foreground text-sm">
-                  <li>Только премиальные бренды</li>
-                  <li>Согласование эстетики</li>
-                  <li>Минимум 3 месяца</li>
-                  <li>Эксклюзивность по категории</li>
-                  <li>Договор с фиксированной оплатой</li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-xl mb-6 border-b border-border pb-3">Бартер</h3>
-                <ul className="space-y-4 text-muted-foreground text-sm">
-                  <li>Обмен произведениями искусства</li>
-                  <li>Доступ к студиям/пространствам</li>
-                  <li>Коллаборации с художниками</li>
-                  <li>Редкие материалы для работы</li>
-                  <li>Индивидуальное рассмотрение</li>
-                </ul>
-              </div>
-            </div>
           </div>
         </section>
 
